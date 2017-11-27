@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.boldogszulinapot.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/flowers"
+        android:scaleType="centerCrop"
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/smiley_face"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/smiley"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Boldog szülinapot Gabi!!!"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Franci, Miki, Domi, Patrik"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:layout_above="@+id/smiley"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        />
+
+</RelativeLayout>
